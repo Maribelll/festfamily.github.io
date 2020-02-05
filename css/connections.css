@@ -153,6 +153,9 @@ span{
 .Support h3{
   font-size: 14px;
 }
+.Support_connections{
+  margin: 30px 40px;
+}
 
 }
 @media all and (max-width: 450px){
@@ -178,4 +181,8 @@ span{
   .Menu{
     display: none;
   }
+  .Support_connections{
+    margin: 30px 20px;
+  }
 }
+
