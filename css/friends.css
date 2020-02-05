@@ -1,0 +1,229 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.Blu ul{
+   list-style-image: url(like.png);
+   padding-top: 40px;
+}
+.Blu li{
+  padding-bottom: 15px;
+}
+
+   .FriendsMainImg img{
+   width: 100%;
+   }
+   .Who_nead{
+      text-align: center;
+      padding-top: 90px;
+      color: #0069B3;
+   }
+   
+   .Wanted{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      margin: 0 50px;
+      height:  500px;
+   
+   }
+   .Cause img{
+      float: left;
+      margin-right: 10px;
+   }
+   .Cause :hover{
+      background-color: chartreuse;
+   }
+   .Call_to_action{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 500px;
+      background-color: #3AA71C;
+      color: white;
+      padding: 0px 40px;
+   }
+   input{
+      background-color: #0069B3;
+      color: white;
+      padding:  40px 50px;
+      border-radius: 5px;
+      font-size: 32px;
+      border: none;
+      -webkit-box-shadow: 10px 10px 10px rgba(117, 108, 108, 0.5);
+              box-shadow: 10px 10px 10px rgba(117, 108, 108, 0.5);
+      text-decoration: none;
+      outline: none;
+      border-width: 2px 0;
+      background: -o-linear-gradient(rgb(95, 51, 253), rgb(69, 6, 215)) rgb(69, 6, 215);
+      background: -webkit-gradient(linear, left top, left bottom, from(rgb(95, 51, 253)), to(rgb(69, 6, 215))) rgb(69, 6, 215);
+      background: linear-gradient(rgb(95, 51, 253), rgb(69, 6, 215)) rgb(69, 6, 215);
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s;
+      margin-right: 60px;
+   }
+   .btn_action input:hover { 
+      background: -o-linear-gradient(rgb(111, 189, 241), rgb(67, 135, 212)) rgb(67, 135, 212); 
+      background: -webkit-gradient(linear, left top, left bottom, from(rgb(111, 189, 241)), to(rgb(67, 135, 212))) rgb(67, 135, 212); 
+      background: linear-gradient(rgb(111, 189, 241), rgb(67, 135, 212)) rgb(67, 135, 212);
+      border-color:rgb(111, 189, 241) rgb(49, 49, 51) rgb(67, 135, 212);
+   }
+   .btn_action a:active { 
+      background: -o-linear-gradient(rgb(111, 189, 241), rgb(67, 135, 212)) rgb(67, 135, 212); 
+      background: -webkit-gradient(linear, left top, left bottom, from(rgb(111, 189, 241)), to(rgb(67, 135, 212))) rgb(67, 135, 212); 
+      background: linear-gradient(rgb(111, 189, 241), rgb(67, 135, 212)) rgb(67, 135, 212);
+    }
+   
+    .headers_action h1{
+      padding-bottom: 30px;
+    }
+    .Call_to_action h1{
+       padding:40px 0px;
+       margin-left: 40px;
+       font-weight: bold;
+      
+    }
+    h2{
+       margin:0px;
+    }
+    @media all and (max-width: 1300px) and (min-width: 320px){
+       .Blu h2{
+          font-size: 1.5em;
+       }
+       .Green, .Blu{
+         padding: 30px 30px;
+     }
+     .headers h1{
+     margin-right: 120px;
+    }
+    .Wanted1{
+       margin-right: 35px;
+    }
+      }
+      @media all and (max-width: 800px){
+         .Menu{
+            display: none;
+         }
+         .headers h1{
+            font-size: 1.4em;
+            margin-right: 80px;
+         
+         }
+         .btn_action input{
+            padding: 20px 25px;
+            font-size: 20px;
+           
+         }
+        .Wanted{
+           -webkit-box-align: baseline;
+               -ms-flex-align: baseline;
+                   align-items: baseline;
+           height: 550px;
+        }
+        .Wanted img{
+           float: left;
+        }
+        .Wanted p{
+         overflow:hidden;
+        }
+        h2{
+           padding-bottom: 40px;
+        }
+      }
+      @media all and (max-width: 600px){
+       .Wanted{
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+         -webkit-box-align: start;
+             -ms-flex-align: start;
+                 align-items: flex-start;
+          height: 550px;
+         
+       }
+       .Wanted p{
+          font-size: 13px;
+       }
+       .Wanted img{
+          width: 30px;
+      
+      }
+      .Who_nead{
+         padding-top: 30px;
+      }
+      .Who_nead h2{
+         font-size: 1.3em;
+   }
+   .Call_to_action{
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   height: 500px;
+   width: 100%;
+   margin: 0px;
+   padding:0px;
+   }
+   .Call_to_action input{
+   text-align: center;
+   margin: 0px;
+   }
+   .headers h1{
+      padding-left: 20%;
+      margin: 0px;
+      font-size: 22px;
+      }
+   
+
+   .Blu h2{
+        padding-left: 40px;
+   }
+   .Blu ul{
+      padding-top: 0px;
+   }
+   }
+   
+   @media all and (max-width: 400px){
+      .Wanted {
+         font-size: 12.5px;
+        height: 700px;
+      }
+      .Call_to_action h2{
+         padding-bottom: 20px;
+         margin: 40px;
+      }
+   }
+   @media all and (max-width: 360px){
+      .Wanted {
+         font-size: 12.5px;
+        height: 770px;
+      }
+   }

@@ -1,0 +1,30 @@
+.all_contacts {
+    color: #0069B3;
+    text-align: center;
+    height: 380px;
+    margin-top: 100px;
+    font-size: 18px;
+   }
+   .all_contacts h2{
+       padding-bottom: 20px;
+   }
+   .Green p, .Blu p{
+       padding-top: 50px;
+   }
+   @media all and (max-width: 1300px){
+   
+       .all_contacts {
+           margin: 50px 20px;
+       }
+    }
+   @media all and (max-width: 820px){
+   h5{
+       padding-left: 10px;
+   }
+   .Menu{
+       display: none;
+   }
+   .all_contacts h2{
+       font-size: 1.3em;
+   }
+   }

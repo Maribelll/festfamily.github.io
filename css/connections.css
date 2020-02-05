@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+}
+.Support{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px;
+    -ms-grid-rows: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;   
+}
+.Support h3{
+  font-size: 1.3em;
+}
+.Support p{
+  padding: 0px;
+}
+.Element1,.Element2,.Element3,.Element4,.Element5,.Element6,.Element7,.Element8,.Element9,.Element10,.Element11,.Element12{
+    text-align: center; 
+    border: 1px solid white;
+    background-color: rgb(59, 152, 218);
+    color:white;
+    padding: 15px;
+}
+.Support_connections {
+  font-size: 20px;
+  text-align: left;
+  margin: 100px;
+  color:  rgb(59, 152, 218);;
+}
+.Support_connections p, .Thanks p{
+  background-color: rgba(244, 243, 247, 0.979);
+  padding:50px 70px;
+  -webkit-box-shadow: 10px 10px 10px rgba(117, 108, 108, 0.5);
+          box-shadow: 10px 10px 10px rgba(117, 108, 108, 0.5);
+  margin: 0 100px 60px;
+}
+
+ h1{
+    text-align: center;  
+    color: #0069B3;
+    margin: 50px;
+}
+.Support h3{
+    text-align: center;
+    padding: 40px 10px 10px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+  .Element1:hover, .Element12:hover {
+    background-color:coral; 
+    -webkit-transition: 0.5s; 
+    -o-transition: 0.5s; 
+    transition: 0.5s; 
+  }
+  .Element2:hover, .Element11:hover {
+    background-color: rgb(240, 240, 48); 
+    -webkit-transition: 0.5s; 
+    -o-transition: 0.5s; 
+    transition: 0.5s; 
+  }
+  .Element3:hover, .Element10:hover {
+    background-color: rgb(172, 8, 187); 
+    -webkit-transition: 0.5s; 
+    -o-transition: 0.5s; 
+    transition: 0.5s; 
+  }
+  .Element4:hover, .Element7:hover {
+    background-color: rgb(243, 38, 38); 
+    -webkit-transition: 0.5s; 
+    -o-transition: 0.5s; 
+    transition: 0.5s; 
+  }
+  .Element5:hover, .Element8:hover {
+    background-color: rgb(3, 6, 165); 
+    -webkit-transition: 0.5s; 
+    -o-transition: 0.5s; 
+    transition: 0.5s; 
+  }
+  .Element6:hover, .Element9:hover {
+    background-color: rgb(78, 206, 78); 
+    -webkit-transition: 0.5s; 
+    -o-transition: 0.5s; 
+    transition: 0.5s; 
+  }
+  
+span{
+  font-weight: bolder;
+
+}
+@media all and (max-width: 1300px){
+  .Support{
+    -ms-grid-columns: 250px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px 250px;
+    -ms-grid-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+  }
+  .Support h3{
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 1.2em;
+  }
+  .Support p{
+    font-size: 14px;;
+  }
+}
+@media all and (max-width: 1000px){ 
+ 
+  .Support{
+    -ms-grid-columns: 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px;
+    -ms-grid-rows: 180px 180px 180px 180px;
+    grid-template-rows: 180px 180px 180px 180px;
+} 
+.Support p{
+  padding: 0px 25px;
+  
+}
+.Support h3{
+  font-size: 16px;
+}
+.Support_connections p, .Thanks p{
+  padding:50px 70px;
+  margin: 0 20px;
+}
+.Support_connections {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 90px;
+}
+}
+@media all and (max-width: 800px){
+  .Support{
+    -ms-grid-columns: 200px 200px;
+    grid-template-columns: 200px 200px; 
+    -ms-grid-rows: 200px 200px 200px 200px 200px; 
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    line-height:1.3;
+  }
+  
+  h1{
+    margin: 30px;
+    font-size:1.3em ;
+}
+.Support_connections p, .Thanks p{
+  padding:30px 50px;
+}
+.Support h3{
+  font-size: 14px;
+}
+
+}
+@media all and (max-width: 450px){
+  .Support{
+    -ms-grid-columns: 150px 150px;
+    grid-template-columns: 150px 150px; 
+  
+  }
+  .Support h3{
+    margin: 0px;
+    text-align: center;
+    font-size: 13px ;
+  }
+  .Support p{
+    padding: 0px;
+    margin-top: 5px;
+
+  }
+  .Support_connections p, .Thanks p{
+    padding:20px 30px;
+    font-size: 14px;
+  }
+  .Menu{
+    display: none;
+  }
+}
