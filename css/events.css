@@ -80,9 +80,20 @@ html {
       }
      
 }
-   
-@media all and (max-width: 500px) and (min-width: 320px){
+@media all and (max-width: 600px){
+   .Img_main_adapt{
+      background-image: url(collage1.png);
 
+     }
+      .head_main{
+      display: none;
+      }
+     }  
+@media all and (max-width: 500px) and (min-width: 320px){
+   .Img_main_adapt{
+      background-image: url(back/collage1.png);
+     background-size: contain;
+     }
 
    .news h3{
        font-size: 1.1em;
@@ -105,6 +116,3 @@ html {
    margin: 10px;
 }
 }
-
-
-
