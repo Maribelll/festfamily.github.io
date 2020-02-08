@@ -10,7 +10,9 @@ body{
    
 }
 
-
+.Img_main_adapt{
+    display: none;
+}
 .Three_rect div:hover {
          -webkit-transform: scale(1.1);
              -ms-transform: scale(1.1);
@@ -50,6 +52,7 @@ body{
         bottom: 80px;
         font-weight: bolder;
 
+
     }
     .Menu a {
         text-decoration: none;
@@ -86,6 +89,8 @@ body{
     .rect1, .rect2, .rect3{
         position: absolute;
         width: 25%;
+        max-width: 380px;
+        
         height: 43%;
         border-radius: 5px;
         border-color: white;
@@ -427,7 +432,7 @@ width: 45px;
     
       }
       }  
-@media all and (max-width: 900px) and (min-width: 320px){
+@media all and (max-width: 900px){
 
    
     .Three_rect img{
@@ -444,7 +449,7 @@ width: 45px;
     padding: 5px;
 }
 }
-@media all and (max-width: 820px) and (min-width: 320px){
+@media all and (max-width: 820px){
     .dropbtn {
         background-color: #3AA71C;
         color: white;
@@ -491,10 +496,10 @@ width: 45px;
     .Menu {
       height: auto;
        position: absolute;
+       display: none;
     }
     .Three_rect {
         display: none;
-
     }
     .Three_rect_adapt{
       display: -webkit-box;
@@ -515,7 +520,6 @@ width: 45px;
     }
     .Blu_line{
         display: none;
-
     }
     .rect1_adapt, .rect2_adapt, .rect3_adapt{
         width: 280px;
@@ -615,6 +619,27 @@ width: 45px;
 
 }
 }
+@media all and (max-width: 600px){
+    .Img_main{
+        display: none;
+    }
+    .Img_main_adapt{
+        background-image: url(back/hands2.png);
+        height: 500px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -2px;
+    }
+    .Img_main_adapt h1, h3{
+        color: white;
+        padding:15px;
+        font-weight: bolder;
+    }
+}
 @media all and (max-width: 500px){
     .Connect{
         display: none;
@@ -624,5 +649,4 @@ width: 45px;
         white-space:normal;
         margin-left: 30px;
       }
-}
-
+    }
