@@ -634,7 +634,7 @@ width: 45px;
         justify-content: center;
         margin-bottom: -2px;
     }
-    .Img_main_adapt h1, h3{
+    .Img_main_adapt h1, .Img_main_adapt h3{
         color: white;
         padding:15px;
         font-weight: bolder;
