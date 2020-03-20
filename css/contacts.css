@@ -5,19 +5,48 @@
     margin-top: 100px;
     font-size: 18px;
    }
+   .h_main_adapt{
+      position: absolute;
+      display: block; 
+      color: white;
+      top: 37%;
+      right: 5%;
+     
+   }
+   .h_main_adapt h1{
+    font-weight: 500;
+    font-size: 5em;
+   }
    .all_contacts h2{
        padding-bottom: 20px;
    }
    .Green p, .Blu p{
        padding-top: 50px;
    }
+   .head_main_adapt{
+       display: none;
+   }
+   @media all and (max-width: 1200px){
+    .h_main_adapt h1 {
+        font-size: 4em;
+    }
+    .h_main_adapt{
+        top: 140px;
+
+    }
+  }
    @media all and (max-width: 1300px){
    
        .all_contacts {
            margin: 50px 20px;
        }
     }
+  
+
    @media all and (max-width: 820px){
+    .h_main_adapt h1 {
+        font-size: 3em;
+    }
    h5{
        padding-left: 10px;
    }
@@ -29,10 +58,21 @@
    }
    }
    @media all and (max-width: 600px){
-       .Img_main_adapt{
-        background-image: url(back/contacts.png);
-       }
-        .FriendsMainImg{
+    .h_main_adapt {
+        top: 170px;
+        right: 5%;
+    }
+    .h_main_adapt h1 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .FriendsMainImg {
         display: none;
-        }
-       }
+    } 
+    .head_main_adapt{
+        display: block;
+        width: 100%;
+    }
+    
+   }
